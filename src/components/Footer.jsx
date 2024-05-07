@@ -15,10 +15,13 @@ const Footer = () => {
           <a target="blank" href="https://github.com/basitabdullah">
             <AiFillGithub />
           </a>
-          <a target="blank" href="https://github.com/basitabdullah">
+          <a target="blank" href="https://www.instagram.com/developing_pain/">
             <AiFillInstagram />
           </a>
-          <a  target="blank" href="https://www.linkedin.com/in/fahim-abdullah-474900253/">
+          <a
+            target="blank"
+            href="https://www.linkedin.com/in/fahim-abdullah-474900253/"
+          >
             <AiFillLinkedin />
           </a>
         </article>

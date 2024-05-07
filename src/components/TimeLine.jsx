@@ -5,19 +5,14 @@ const TimeLine = () => {
     <div id="timeline">
       <div className="timelineBox">
         {data.projects.map((x, i) => (
-          <TimeLineItem
-            heading={x.title}
-            text={x.date}
-            index={i}
-            key={x.title}
-          />
+          <TimeLineItem heading={x.title} url={x.url} index={i} key={x.title} date={x.date} />
         ))}
       </div>
     </div>
   );
 };
 
-const TimeLineItem = ({ heading, text, index }) => (
+const TimeLineItem = ({ heading, url, index,date }) => (
   <div
     className={`timelineItem ${
       index % 2 === 0 ? "leftTimeline" : "rightTimeline"
@@ -25,7 +20,8 @@ const TimeLineItem = ({ heading, text, index }) => (
   >
     <div>
       <h2>{heading}</h2>
-      <p>{text}</p>
+      <a href={url}>Link : {url}</a>
+      <h6>{date}</h6>
     </div>
   </div>
 );

@@ -7,14 +7,14 @@ const Home = () => {
 const clientCount = useRef(null)
 const projectsCount = useRef(null)
 const animationClientsCount = () =>{
-    animate(0,100,{
+    animate(0,2,{
         duration:1,
         onUpdate: (v)=> clientCount.current.textContent = v.toFixed()
     })
 }
 
 const animationProjectsCount = () =>{
-    animate(0,500,{
+    animate(0,50,{
         duration:1,
         onUpdate: (v)=> projectsCount.current.textContent = v.toFixed()
     })
@@ -54,7 +54,7 @@ const animationProjectsCount = () =>{
 
                     <Typewriter
                         options={{
-                            strings: ["A Developer", "A Designer", "A Creater"],
+                            strings: ["A Developer", "A Designer", "A Creator"],
                             autoStart: true,
                             loop: true,
                             wrapperClassName: "typewriterpara",
@@ -71,10 +71,10 @@ const animationProjectsCount = () =>{
 
                     <article>
                         <p>
-                            +<motion.span whileInView={animationClientsCount} ref={clientCount}>100</motion.span>
+                            +<motion.span whileInView={animationClientsCount} ref={clientCount}></motion.span>
                         </p>
 
-                        <span>Clients WorldWide </span>
+                        <span>Years of Experience </span>
                     </article>
 
                     <aside>

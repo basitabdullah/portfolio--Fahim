@@ -1,41 +1,50 @@
+
+
 {
-    "projects": [
-      {
-        "date": "07/10/2022",
-        "title": "TECHY STAR",
-        "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
-        "url": "https://repo-react.vercel.app/",
-        "imgSrc": "https://cdn.pixabay.com/photo/2018/06/07/16/49/virtual-3460451_960_720.jpg"
-      },
-  
-      {
-        "date": "11/10/2022",
-        "title": "VIDEO HUB",
-        "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
-        "url": "https://video-hub-ochre.vercel.app/",
-        "imgSrc": "https://cdn.pixabay.com/photo/2016/11/21/12/51/mobile-phone-1845233__340.jpg"
-      },
-      {
-        "date": "15/10/2022",
-        "title": "XCrypto",
-        "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
-        "url": "https://project-crypto-cyn9f5vx8-basitabdullah.vercel.app/",
-        "imgSrc": "https://cdn.pixabay.com/photo/2017/12/12/12/44/bitcoin-3014614_960_720.jpg"
-      },
-  
-      {
-        "date": "17/10/2022",
-        "title": "REACT CART",
-        "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
-        "url": "https://react-cart-project-mfn3x5q3o-basitabdullah.vercel.app/",
-        "imgSrc": "https://cdn.pixabay.com/photo/2019/12/14/08/36/shopping-4694470_960_720.jpg"
-      },
-      {
-        "date": "20/10/2022",
-        "title": "PORTFOLIO",
-        "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
-        "url": "/",
-        "imgSrc": "https://cdn.pixabay.com/photo/2020/03/19/21/25/cactus-4948833_960_720.jpg"
-      }
-    ]
-  }
+  "projects": [
+    {
+      "title": "PORTFOLIO",
+      "date": "Sep 2023",
+      "description": "My Portfolio In which you can see my latest works.",
+      "url": "https://fahim-portfolio-oonbmfc5r-basitabdullah.vercel.app/",
+      "imgSrc": "https://cdn.pixabay.com/photo/2020/03/19/21/25/cactus-4948833_960_720.jpg"
+    },
+    {
+      "title": "Kreed Admin Dashboard",
+      "date": "Oct 2023",
+      "description": "This dashboard is created using react and firebase.By this admin of Kreed Mobile App can easily track  stats , post count , users in different catagories etc.",
+      "url": "https://github.com/cehpoint-official/Kreed-Admin",
+      "imgSrc": "srcassetscourses.png"
+    },
+
+    {
+      "title": "Bidchemz Investor Portal",
+      "date": " Dec 2023",
+      "description": "Investor portal allows you to manage all of the documents and investors for each real estate deal in a centralized location.",
+      "url": "https://investor-portal-updated-user.vercel.app/financial-projections",
+      "imgSrc": "https://cdn.pixabay.com/photo/2017/12/12/12/44/bitcoin-3014614_960_720.jpg"
+    },
+    {
+      "title": "Fiverr Clone MERN",
+      "date": " April 2024",
+      "description": "Fiverr's platform connects freelancers (sellers) to people or businesses looking to hire (buyers), encouraging a wide range of services in a free market.(React,Express,MongoDB,Node)",
+      "url": "https://github.com/basitabdullah/fiverr",
+      "imgSrc": "https://media.smallbiztrends.com/2023/01/How-to-Sell-on-Fiverr.png"
+    },
+    {
+      "title": "Courses Cracked",
+      "date": "May 2024",
+      "description": "At Courses Cracked, you can stream valuable videos of best creators, you can gain practical knowledge and learn real-world skills that will help you transform your life at work, school and home.",
+      "url": "https://courses-app-tau.vercel.app/",
+      "imgSrc": "srcassetsinvestor.png"
+    },
+
+    {
+      "title": "Shoppiness Mart",
+      "date": "May 2024",
+      "description": "A charity website in which we raise free funds for charity with your everyday online shopping.",
+      "url": "https://shoppiness-mart.vercel.app/",
+      "imgSrc": "https://cdn.pixabay.com/photo/2019/12/14/08/36/shopping-4694470_960_720.jpg"
+    }
+  ]
+}
